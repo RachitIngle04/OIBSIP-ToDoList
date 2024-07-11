@@ -7,7 +7,7 @@ body {
     max-width: 600px;
 }
 
-/* Changed text and color for better UI which wasnt clearly visible*/
+
 .form-control::placeholder{
     color: gainsboro;
 }
