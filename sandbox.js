@@ -14,7 +14,7 @@ const generateTemplate = todo => {
         
 `;
 
-    list.innerHTML += html;
+  list.innerHTML += html;
 
 };
 
@@ -29,7 +29,7 @@ addForm.addEventListener('submit', e => {
     }
 });
 
-// Delete Todos
+
 list.addEventListener('click', e => {
 
     if (e.target.classList.contains('delete')) {
@@ -49,7 +49,7 @@ const filterTodos = (term) => {
         .forEach((todo) => todo.classList.add('filtered'));
 };
 
-// Keyup Event
+
 search.addEventListener('keyup', () => {
     const term = search.value.trim().toLowerCase();
     filterTodos(term);
